@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #3d2514;
+    text-decoration: none;
+    font-family:AlfaSlabOne-Regular ;
+    /* background-color: rgb(10, 241, 168); */
+}
+@font-face {
+    font-family:AlfaSlabOne-Regular ;
+    src: url(font/Alfa_Slab_One1/AlfaSlabOne-Regular.ttf);
+}
+@font-face {
+    font-family:BebasNeue-Regular ;
+    src: url(font/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family:Montserrat-Regular ;
+    src: url(font/montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family:MYRIADPRO-REGULAR ;
+    src: url(font/myriad-pro/MYRIADPRO-REGULAR.OTF);
+}
+/* header part */
+header{
+    padding: 2%;
+    background-image: url(image/banner.png);
+}
+.header{
+    width: 100%;
+    margin: 0 auto;
+}
+.conatiner{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.logo{
+    width: 10%;
+    /* border: 2px solid blue; */
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.conatiner h4{
+    width: 16%;
+    /* border: 2px solid rgb(15, 232, 243); */
+    float: right;
+    margin-top: .5%;
+    margin-left: 1%;
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 18px;
+    font-weight: 400;
+}
+.express_logo{
+    width: 3%;
+    /* border: 2px solid rgb(6, 85, 34); */
+    float: right;
+}
+.express_logo img{
+    width: 100%;
+}
+.menu{
+    width: 50%;
+    /* border: 2px solid orange; */
+    float: right;
+}
+.menu ul{
+    float: right;
+    margin-top: 2%;
+    
+}
+.menu ul li{
+    float: left;
+    margin-left: 90px;
+}
+.menu ul li a{
+    font-family: BebasNeue-Regular;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 3px;
+
+}
+.burger_text{
+    width: 50%;
+    /* border: 2px solid tomato; */
+    float: left;
+    margin-top: 5%;
+}
+.burger_text h3{
+    width: 41%;
+    padding: 2%;
+    font-family: BebasNeue-Regular;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border: 1px dashed #3d2514;
+    
+}
+.burger_text h2{
+    float: left;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px #fefbfb;
+}
+.burger_text h1{
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px #fefbfb;
+}
+.burger_image{
+    width: 40%;
+    /* border: 2px solid tomato; */
+    float: right;
+    padding: 3%;
+    position: relative;
+}
+.burger_image img{
+    width: 100%;
+    
+}
+.only h1{
+    position: absolute;
+    font-family: BebasNeue-Regular;
+    font-size: 40px;
+    font-weight: 400;
+    bottom: 37%;
+    right: 37.5%;
+    color: rgb(252, 250, 250);
+}
+.only h2{
+    position: absolute;
+    font-family: BebasNeue-Regular;
+    font-size: 40px;
+    font-weight: 400;
+    bottom: 32%;
+    right: 34.9%;
+    color: rgb(252, 250, 250);
+    letter-spacing: 8px;
+}
+.only sub{
+    position: absolute;
+    font-family: BebasNeue-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    bottom: 38%;
+    right: 36.4%;
+    color: rgb(252, 250, 250);
+}
+/* food menu part */
+.food{
+    padding: 3% 0;
+}
+.food_image{
+    width: 40%;
+    /* border: 2px solid rgb(227, 9, 9); */
+    position: relative;
+    float: left;
+    margin-right: 166px;
+}
+.food_image2{
+    width: 40%;
+    /* border: 2px solid purple; */
+    float: right;
+}
+.food_image1{
+    /* border: 2px solid rgb(3, 243, 55); */
+    position: relative;
+    /* padding-bottom: 2%; */
+}
+.food_image img{
+    width: 100%;
+}
+.food_image1:nth-child(2) img{
+    padding-top: 5%;
+
+}
+.food_image1 img{
+    width: 100%;
+}
+.food_text{
+    position: absolute;
+    left: 4%;
+    top: 8%;
+}
+.food_text1{
+    position: absolute;
+    left: 4%;
+    top: 20%;
+}
+.food_text h3 {
+    font-family: BebasNeue-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fefcfc;
+}
+.food_text h2 {
+    font-family: BebasNeue-Regular;
+    font-size: 35px;
+    font-weight: 400;
+    color: #fefcfc;
+}
+.food_text1 h3 {
+    font-family: BebasNeue-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fefcfc;
+}
+.food_text1 h2 {
+    font-family: BebasNeue-Regular;
+    font-size: 35px;
+    font-weight: 400;
+    color: #fefcfc;
+}
+/* Choose and enjoy part */
+.enjoy{
+
+}
+.conatiner2{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+.enjoy_text {
+    text-align: center;
+}
+.enjoy_text h2 {
+    width: 10%;
+    margin-left: 45%;
+    padding: .5%;
+    background-color: #ffc045;
+    font-family: BebasNeue-Regular;
+    font-size: 18px;
+    font-weight: 400;
+}
+.enjoy_text h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 1%;
+}
+.enjoy_text p{
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    font-weight: 300;
+    padding:  1% 0;
+}
+/* food_part2 */
+.food_part2{
+    overflow: hidden;
+}
+.food_part2_image{
+    width: 25%;
+    border: 2px solid green;
+    /* background-color: black; */
+    margin-right: 138px;
+    float: left;
+}
+.food_part2_image img{
+    width: 100%;
+}
+ /* problem ace
+    image er last child margin right 0 korete parcina */
+.food_part2_image:last-child img{
+    margin-right: 0;
+}
+ /* problem ace
+    image er last child margin right 0 korete parcina */
+    .food_part2_text{
+        text-align: center;
+    }
+    .food_part2_text h1{
+        font-family: BebasNeue-Regular;
+        font-size: 30px;
+        font-weight: 400;
+        padding: 2% 0;
+    }
+    .food_part2_text p{
+        font-family: Montserrat-Regular;
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 4%;
+        
+    }
+    .food_part2_text a{
+        width: 39%;
+        margin: 0 30%;
+        padding: 2%;
+        font-size: 25px;
+        font-weight: 400;
+        background-color: #bf2222;
+        color: #ffffff;
+    }
+    /* discover part */
+    .discover{
+        padding-top: 5%;
+        position: relative;
+    }
+    .box{
+        width: 90%;
+        /* background-image: url(image/box.png); */
+        /* border: 2px solid tomato; */
+        /* box-shadow: 5px 20px; */
+        overflow: hidden;
+    }
+    .discover_text{
+        width: 30%;
+        /* border: 2px solid red; */
+        float: left;
+        margin-left: 2%;
+        margin-top: 3%;
+       
+    }
+    .discover_text img{
+        position: absolute;
+        left: 5%;
+        bottom: 0%;
+    }
+    .discover_text h2{
+        font-family: BebasNeue-Regular;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .discover_text h1{
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    .discover_text p{
+        font-family: Montserrat-Regular;
+        font-size: 18px;
+        font-weight: 300;
+        color: #3d3d3d;
+    }
+    .discover_image{
+        width: 50%;
+        /* border: 2px solid tomato; */
+        float: right;
+        margin-right: 2%;
+
+    }
+    .discover_image img{
+        width: 100%;
+    }
+    /* book your table part */
+    .book_table{
+        position: relative;
+    }
+    .burger3{
+        width: 10%;
+        border: 2px solid black;
+        margin-top: 5%;
+        /* float: left; */
+    }
+    .burger3 img{
+        width: 100%;
+    }
+    /* Book Table part */
+    .book_text{
+        width: 50%;
+        border: 2px solid green;
+        margin: 0 auto;
+        position: relative;
+        
+        position: absolute;
+        top:5%;
+        left: 20%;
+    }
+    .book_text h2{
+        text-align: center;
+    }
+    .book_text h1{
+        text-align: center;
+    }
+    .form{
+
+        }
+
+    .input_data{
+        display: flex;
+        width: 20%;
+    }
+    .f_left{
+
+        position: absolute;
+        right:0;
+    }
+    footer{
+        padding-top: 5%;
+    }
+     .footer{
+        background-image: url(image/Layer.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 675px;
+        position: relative;
+
+     }
+     .wrapper{
+        width: 40%;
+        /* border: 2px solid red; */
+     }
+     .logo1{
+        width: 20%;
+        /* border: 2px solid lightcoral; */
+        position: absolute;
+        top: 25%;
+        left: 4%;
+     }
+     .logo1 img{
+        width: 100%;
+     }
+     .footer_text{
+        width: 40%;
+        /* border: 2px solid lawngreen; */
+        position: absolute;
+        left: 4%;
+        bottom: 40%;
+     }
+     .footer_text p{
+        color: white;
+        font-family: Montserrat-Regular;
+        font-size: 18px;
+        font-weight: 300;
+     }
+     .copyright{
+        width: 30%;
+        /* border: 2px solid red; */
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 2%;
+     }
+     .copyright h2{
+        color: white;
+        font-family: BebasNeue-Regular;
+        font-size: 18px;
+        font-weight: 300;
+     }
+     .icon{
+        width: 15%;
+        /* border: 2px solid green; */
+        float: right;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding-bottom: 1.5%;
+     }
+     .social_link{
+        width: 12%;
+        /* border: 2px solid rebeccapurple; */
+        float: left;
+        margin-left: 20px;
+        padding-bottom: 2%;
+     }
+     .social_link img{
+        width: 100%;
+     }
